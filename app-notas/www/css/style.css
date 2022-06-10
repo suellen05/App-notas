@@ -62,14 +62,19 @@ body {
 }
 
 h1 {
-    font-size:24px;
+    font-size:50px;
     font-weight:normal;
-    margin:0px;
+    margin:20px;
     overflow:visible;
-    padding:0px;
+    padding:20px;
     text-align:center;
 }
 
+h2 {
+    font-size:30px;
+    color: #333333;
+    
+}
 .event {
     border-radius:4px;
     color:#FFFFFF;
@@ -105,6 +110,7 @@ h1 {
 
 @media screen and (prefers-color-scheme: dark) {
     body {
-        background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
+        background-image:linear-gradient(to bottom, #e06b6b 0%, #eeaaaa 51%);
+        text-align:center;
     }
 }
